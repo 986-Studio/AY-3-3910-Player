@@ -54,6 +54,9 @@ This project may evolve in a fully autonoous Arduino capable of playing
 YM/MYM file without the need of a PC streaming. I may use the
 Gameduino2 for it's the display and SD part.
 
+More information on this project can be found here:
+http://www.986-studio.com/category/electronic/ay-3-3910/
+
 *********************************************************************
 
 I've included a simple MYM file with this project: Thrust.mym
