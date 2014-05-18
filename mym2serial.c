@@ -213,6 +213,7 @@ int main(int argc,char *argv[])
             write(serial_fd, buffer, 14);
             // 50Hz so wait a little bit...
             printf("\rVBL%ld ", n);
+            fflush(stdout);
             usleep(20*1000); /* 50Hz */
         }
         printf("\n");
