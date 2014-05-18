@@ -212,9 +212,10 @@ int main(int argc,char *argv[])
             }
             write(serial_fd, buffer, 14);
             // 50Hz so wait a little bit...
-            printf("VBL%ld\n", n);
-            usleep(16*1000);
+            printf("\rVBL%ld ", n);
+            usleep(20*1000); /* 50Hz */
         }
+        printf("\n");
     }
     else
     {
