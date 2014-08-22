@@ -3,7 +3,7 @@
  *                 (c) 2014 Manoel "Godzil" Trapier                *
  *******************************************************************/
  
-First for the format things, this project is licensed under the
+First for the formal things, this project is licensed under the
 
                     WTFPL v2 Postal Card Edition:
 
@@ -33,26 +33,26 @@ First for the format things, this project is licensed under the
 
 Now the formal things are done.
 
-The small project is to provide a simple and easy way to play YM
+This small project is to provide a simple and easy way to play YM
 files on a computer using the less possible component.
 
 It is currently only using a resistor, a AY-3-3910 (but any version
-is fine for playing music), a femal audio jack connector to let plug
-something to ear the nice sound, an Arduino and a buch of wire,
-nothing more.
+is fine for playing music), a femal audio jack connector to let you
+ear the nice sound, an Arduino, a buch of wire, and nothing more.
 
 Most project I saw before was using a quartz to provide a clock to
 the AY, but this is just useless and expensive when you have a µC
 with timers :)
 
-As the Arduino does not have enought memory to store teh YM file,
-it is somewhat streamed from the PC trought the USB cable.
+As the Arduino does not have enought memory to store the YM file,
+it is stream from the PC trought the USB virtual serial port.
 
-A Fritzing schematic is not ready yet but will come ASAP.
+You can find a Fritzing schematic in the file 
+project-ay-3-3910-breadboard.png
 
-This project may evolve in a fully autonoous Arduino capable of playing
-YM/MYM file without the need of a PC streaming. I may use the
-Gameduino2 for it's the display and SD part.
+This project may evolve in a fully autonomous Arduino capable of
+playing YM/MYM file without the need of a PC. I may use the
+Gameduino2 for its display and SD connector.
 
 More information on this project can be found here:
 http://www.986-studio.com/category/electronic/ay-3-3910/
