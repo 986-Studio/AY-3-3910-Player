@@ -25,7 +25,7 @@ First for the formal things, this project is licensed under the
 
              < godzil-nospambot at godzil dot net >
 
- If you wan't to send a real postal card, send me an email, I'll
+ If you want to send a real postal card, send me an email, I'll
  give you my address. Of course remove the -nospambot from my
  e-mail address.
  
