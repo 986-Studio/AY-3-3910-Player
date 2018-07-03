@@ -55,7 +55,7 @@ playing YM/MYM file without the need of a PC. I may use the
 Gameduino2 for its display and SD connector.
 
 More information on this project can be found here:
-http://www.986-studio.com/category/electronic/ay-3-3910/
+http://www.986-studio.com/category/electronic/ay-3-8910/
 
 *********************************************************************
 
