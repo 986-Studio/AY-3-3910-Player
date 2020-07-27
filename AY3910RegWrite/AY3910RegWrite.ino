@@ -101,7 +101,7 @@ void setup_control()
 
 void set_control(int mode)
 {
-  PORTC = (PORTC & 111111100) | (mode);
+  PORTC = (PORTC & B11111100) | (mode);
 }
 
 void SetData(unsigned char data)
